@@ -6,12 +6,12 @@ It explores the effect of different learning rates on model performance using me
 
 The pipeline covers:
 
-Loading the FashionMNIST dataset
+i) Loading the FashionMNIST dataset
+ii) Building a simple CNN architecture
+iii) Training the model with configurable hyperparameters
+iv) Evaluating the model using multiple performance metrics
+v) Running experiments across various learning rates
 
-i) Building a simple CNN architecture
-ii) Training the model with configurable hyperparameters
-iii) Evaluating the model using multiple performance metrics
-iv) Running experiments across various learning rates
 
 🛠 Features
 
@@ -22,6 +22,7 @@ iii) Built-in evaluation metrics from torchmetrics
 Experiment runner to compare different learning rates
 
 Prints accuracy, per-class precision, and per-class recall
+
 
 📦 Requirements
 
